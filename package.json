@@ -1,5 +1,5 @@
 {
-  "name": "nodeserver",
+  "name": "react_pokedex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,21 +17,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ed-val/nodeServer.git"
+    "url": "git+https://github.com/ed-val/react_pokedex.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ed-val/nodeServer/issues"
+    "url": "https://github.com/ed-val/react_pokedex/issues"
   },
-  "homepage": "https://github.com/ed-val/nodeServer#readme",
+  "homepage": "https://github.com/ed-val/react_pokedex#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.0",
     "cookie-session": "^1.3.3",
     "express": "^4.16.4",
     "localtunnel": "^1.9.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "mongoose": "^5.5.5",
     "nodemon": "^1.19.0",
     "passport": "^0.4.0",
