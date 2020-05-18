@@ -23,5 +23,5 @@ from the root of the project.
 
 Remember you can see the live demo at:
 
-> https://git.heroku.com/pure-spire-83273.git
+> https://pure-spire-83273.herokuapp.com/
 
