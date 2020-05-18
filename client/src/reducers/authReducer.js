@@ -1,5 +1,6 @@
 const INITIAL_STATE = {
-  user: false
+  user: false,
+  landingIsActive: false,
 };
 
 export default function(state = INITIAL_STATE, action) {
@@ -10,6 +11,9 @@ export default function(state = INITIAL_STATE, action) {
     }
     case 'FETCH_USER_SUCCESS': {
       return { ...state, user: action.payload || false };
+    }
+    case 'LANDING_IS_ACTIVE': {
+      return { ...state, landingIsActive: action.payload };
     }
     default:
       return state;
