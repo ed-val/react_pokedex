@@ -11,7 +11,8 @@ class SearchBar extends Component {
   }
   
   _onSearchBarChange(event) {
-    this.setState({ searchbarText: event.target.value});
+    console.log(event.target.value.toLowerCase());
+    this.setState({ searchbarText: event.target.value.toLowerCase()});
   }
 
   _handleKeyDown(e) {
@@ -22,7 +23,10 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div style={{ margin: '40px 0px 40px 0px', borderRadius: '50px' }} className="nav-wrapper col s4 m6 l6 grey lighten-4">
+      <div 
+        style={{ margin: '40px 0px 40px 0px', borderRadius: '50px' }} 
+        className="nav-wrapper col s12 m12 l6 grey lighten-4"
+      >
         <form>
           <div className="input-field">
             <input 
