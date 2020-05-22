@@ -17,8 +17,6 @@ class Header extends Component {
     switch (this.props.user) {
       case null:
         return;
-      case false:
-        // return <li onClick={this.props.landingIsActive(false)}><a href="/auth/google">Login with Google</a></li>;
       default:
         return [
           // <li key="1"><Payments /></li>,
