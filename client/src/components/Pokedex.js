@@ -58,7 +58,7 @@ class Pokedex extends Component {
        {this.state.redirect && <Redirect to={this.state.redirect} />}
         <div className="row s12" style={{}}>
           <SearchBar onKeyDown={this._onSearch.bind(this)} />
-          <h1 className="col s6 grey-text lighten-1" style={{ fontWeight: "800", fontStyle: 'italic' }}>POKEDEX</h1>
+          <h1 className="col s12 m12 l6 grey-text lighten-1" style={{ fontWeight: "800", fontStyle: 'italic' }}>POKEDEX</h1>
         </div>
         {this.props.pokemons.length > 0 &&
           <div className="col s12">
